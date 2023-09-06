@@ -1,0 +1,28 @@
+/* Styles Table */
+table {
+    border: 0.1rem solid darkblue;
+    border-radius: 0.2rem;
+    margin: 5rem auto auto auto;
+}
+
+/* Styles Button */
+input[type="button"] {
+    width: 100%;
+    padding: 20px 2.5rem;
+    background-color:cornflowerblue;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+/* Styles Numbers */
+input[type="text"] {
+    padding: 20px 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    border: 0.2rem solid darkblue;
+}
