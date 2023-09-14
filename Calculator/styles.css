@@ -26,3 +26,8 @@ input[type="text"] {
     border-radius: 0.5rem;
     border: 0.2rem solid darkblue;
 }
+
+/* Style Display */
+#display {
+    text-align: right;
+}
