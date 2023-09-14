@@ -9,19 +9,19 @@ keys.addEventListener('click', (event) => {
 
   if (amount === 'c') { // Limpa o campo de exibição
     display.value = '';
-    console.log('Clear!');
+    console.log('Clear.');
   } else if (amount === '=') { // "=" foi clicado, avalia a expressão no campo de exibição
     try {
       display.value = eval(display.value);
       console.log('Calculating...');
     } catch (error) { // Em caso de erro durante o cálculo, exibe "Erro" no campo de exibição
       display.value = 'Error';
-      console.log('Error.');
+      console.log('Error.');  
     }
   } else {
     // Adiciona o valor do botão ao campo de exibição
     display.value += amount;
-    console.log('Value Adds!');
+    console.log('Value Add: ' + amount);
   }
 });
 
