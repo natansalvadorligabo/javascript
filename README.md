@@ -1,6 +1,6 @@
-# Estudos de JavaScript
+# Projetos Web
 
-Este repositório contém diversos projetos e estudos relacionados à linguagem de programação JavaScript. Aqui, você encontrará exemplos de código, exercícios, tutoriais, com o foco em aprender e aprofundar meus conhecimentos em JavaScript.
+Este repositório contém diversos projetos e estudos relacionados ao desenvolvimento web, com ênfase na linguagem de programação JavaScript, HTML e CSS. Aqui, você encontrará exemplos de código, exercícios, tutoriais e projetos práticos, com o objetivo de aprender e aprofundar meus conhecimentos em desenvolvimento web.
 
 ## Acesso aos Projetos
 
