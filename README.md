@@ -6,5 +6,5 @@ Este repositório contém diversos projetos e estudos relacionados ao desenvolvi
 
 Para experimentar qualquer um dos projetos, basta clicar nos links abaixo:
 
-- [Calculadora JavaScript](https://natansalvadorligabo.github.io/javascript/Calculator/)
-- [Mercado Livre (com Bootstrap)](https://natansalvadorligabo.github.io/javascript/MercadoLivre/)
+- [Calculadora JavaScript](https://github.com/natansalvadorligabo/projetos-web/tree/main/Calculator)
+- [Mercado Livre (com Bootstrap)](https://github.com/natansalvadorligabo/projetos-web/tree/main/Mercado%20Livre)
