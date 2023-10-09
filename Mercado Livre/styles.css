@@ -1,0 +1,26 @@
+body {
+    background-color: #EBEBEB;
+}
+.navbar-yellow {
+    background-color: #FFF159;
+}
+
+/* Aumentar a barra de pesquisa lateralmente */
+.form-control {
+    width: 22rem; /* ou qualquer valor desejado */
+}
+
+#green {
+    color: #00A650;
+}
+
+.footer {
+    background-color: #ffffff; /* Fundo branco */
+    border-top: 1px solid #dddddd; /* Linha divisória cinza */
+    padding: 20px 0;
+    color: #6c757d; /* Cor do texto (preto) */
+}
+
+.progress-bar {
+    transition: width 0.5s;
+}

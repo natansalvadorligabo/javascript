@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Livre</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-yellow bg-yellow">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+                <img src="img\mercadolivrelogo-removebg-preview.png" alt="Logo da Empresa" width="165" height="75"
+                    class="d-inline-block align-top">
+            </a>
+
+            <!-- Barra de pesquisa -->
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar produtos, marcas e muito mais..."
+                    aria-label="Search">
+                <button class="btn btn-outline-dark" type="submit">Pesquisar</button>
+            </form>
+
+            <!-- Categorias (dropdown) -->
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="categoriasDropdown" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Categorias
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="categoriasDropdown">
+                    <li><a class="dropdown-item disabled" aria-disabled="true">Veículos</a></li>
+                    <li><a class="dropdown-item disabled" aria-disabled="true">Supermercado</a></li>
+                    <li><a class="dropdown-item disabled" aria-disabled="true">Tecnologia</a></li>
+                    <li><a class="dropdown-item disabled" aria-disabled="true">Casa e Móveis</a></li>
+                    <li><a class="dropdown-item disabled" aria-disabled="true">Eletrodomésticos</a></li>
+                    <li><a class="dropdown-item disabled" aria-disabled="true">Esportes e Fitness</a></li>
+                    <li><a class="dropdown-item disabled" aria-disabled="true">Ferramentas</a></li>
+                    <li><a class="dropdown-item disabled" aria-disabled="true">Construção</a></li>
+                    <li><a class="dropdown-item disabled" aria-disabled="true">Indústria e Comércio</a></li>
+                    <li><a class="dropdown-item disabled" aria-disabled="true">Saúde</a></li>
+                    <li><a class="dropdown-item disabled" aria-disabled="true">Beleza e Cuidado Pessoal</a></li>
+                    <li><a class="dropdown-item disabled" aria-disabled="true">Moda</a></li>
+                </ul>
+            </div>
+
+
+            <!-- Itens Mais Vendidos -->
+            <a class="nav-link" href="itens.html">Itens Mais Vendidos</a>
+
+            <!-- Perfil (nome, dropdown) -->
+            <div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" id="perfilDropdown" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="img\perfil-de-usuario.png" alt="Logo do Perfil" width="30" height="30" class="mr-2">
+                    NATANSALVADORLIGABO
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="perfilDropdown">
+                    <li><a class="dropdown-item disabled" aria-disabled="true">Meu Perfil</a></li>
+                    <li><a class="dropdown-item" href="config.html">Configurações</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="login.html">Sair</a></li>
+                </ul>
+            </div>
+
+            <!-- Ícone de sino -->
+            <a class="nav-link" href="#">
+                <img src="img\sino.png" alt="Ícone de Sino" width="30" height="30">
+            </a>
+
+            <!-- Ícone de carrinho -->
+            <a class="nav-link" href="#">
+                <img src="img\carrinho-de-compras.png" alt="Ícone de Carrinho" width="30" height="30">
+            </a>
+
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <header id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img\carouselcarro.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img\carouseldiadasbruxas.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img\carouseltenis.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </header>
+
+    <!-- Cards -->
+    <section class="container text-center my-5">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body text-start">
+                        <img src="img\tenis.png" class="card-img-top">
+                        <p class="card-text">Tênis Esportivo Premium</p>
+                        <p class="card-text">R$ 250,00</p>
+                        <p class="card-text">em <span id="green">10x R$ 25,00 sem juros</span></p>
+                        <p class="card-text"><span id="green">Frete grátis</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body text-start">
+                        <img src="img\escova.png" class="card-img-top">
+                        <p class="card-text">Escova Alisadora de Cabelo</p>
+                        <p class="card-text">R$ 50,00</p>
+                        <p class="card-text">em <span id="green">10x R$ 5,00 sem juros</span></p>
+                        <p class="card-text"><span id="green">Frete grátis</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body text-start">
+                        <img src="img\mochila.png" class="card-img-top">
+                        <p class="card-text">Mochila para Laptop</p>
+                        <p class="card-text">R$ 80,00</p>
+                        <p class="card-text">em <span id="green">10x R$ 8,00 sem juros</span></p>
+                        <p class="card-text"><span id="green">Frete grátis</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body text-start">
+                        <img src="img\camera.png" class="card-img-top">
+                        <p class="card-text">Câmera de Segurança WiFi</p>
+                        <p class="card-text">R$ 120,00</p>
+                        <p class="card-text">em <span id="green">10x R$ 12,00 sem juros</span></p>
+                        <p class="card-text"><span id="green">Frete grátis</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body text-start">
+                        <img src="img\celular.png" class="card-img-top">
+                        <p class="card-text">Smartphone XYZ</p>
+                        <p class="card-text">R$ 1,200,00</p>
+                        <p class="card-text">em <span id="green">10x R$ 120,00 sem juros</span></p>
+                        <p class="card-text"><span id="green">Frete grátis</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Copyright © 2023 Natan Salvador Ligabô</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo, Campus Araraquara</p>
+                    <p>Rua Doutor Aldo Benedito Pierri, 250 - Jardim Paulo Freire, Araraquara - SP, CEP 14804-296</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
