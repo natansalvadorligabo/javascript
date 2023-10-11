@@ -4,7 +4,8 @@ Este repositório contém diversos projetos e estudos relacionados ao desenvolvi
 
 ## Acesso aos Projetos
 
-Para experimentar qualquer um dos projetos, basta clicar nos links abaixo:
+Para experimentar qualquer um dos projetos, basta clicar nos links abaixo e fazer download:
 
 - [Calculadora JavaScript](https://github.com/natansalvadorligabo/projetos-web/tree/main/Calculator)
-- [Mercado Livre (com Bootstrap)](https://github.com/natansalvadorligabo/projetos-web/tree/main/Mercado%20Livre)
+- [Mercado Livre (Bootstrap)](https://github.com/natansalvadorligabo/projetos-web/tree/main/Mercado%20Livre)
+- [Netflix (Bootstrap + OMDb API)](https://github.com/natansalvadorligabo/projetos-web/tree/main/Netflix%20Cat%C3%A1logo)
