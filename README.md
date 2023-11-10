@@ -8,4 +8,3 @@ Para experimentar qualquer um dos projetos, basta clicar nos links abaixo e faze
 
 - [Calculadora JavaScript](https://github.com/natansalvadorligabo/projetos-web/tree/main/Calculator)
 - [Mercado Livre (Bootstrap)](https://github.com/natansalvadorligabo/projetos-web/tree/main/Mercado%20Livre)
-- [Netflix (Bootstrap + OMDb API)](https://github.com/natansalvadorligabo/projetos-web/tree/main/Netflix%20Cat%C3%A1logo)
